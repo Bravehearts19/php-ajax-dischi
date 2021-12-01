@@ -1,0 +1,59 @@
+body {
+    background-color: #192d3b;
+}
+
+/* Start of header.php component css */
+header {
+    background-color: #2b3a46;
+    object-fit: contain;
+}
+header img {
+    height: 70px;
+    padding: 10px;
+}
+/* End of header.php component css */
+
+/* Start of albumCardContainer.php component */
+.row_container {
+    overflow: hidden;
+}
+.row_container .row {
+    overflow: hidden;
+}
+.row_container .row .col .card {
+    background-color: #2b3a46;
+    color: white;
+    text-align: center;
+    height: 100%;
+}
+.row_container .row .col .card .card-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.row_container .row .col .card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.row_container .row .col .card ul li {
+    margin: 0;
+    padding: 0;
+}
+.row_container .row .col .card ul li span {
+    color: #6c797e;
+    margin: 0;
+    padding: 0;
+}
+.row_container .row .col .card ul li .author_span {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.row_container .row .col .card ul li .year_span {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+}
+/* End of albumCardContainer.php component*/
