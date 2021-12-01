@@ -22,10 +22,10 @@ Vue.component('component-1', {
     },
     methods: {
         selectGenreOption() {
-            this.$emit("onSelectedGenre", this.selectGenre)
+            this.$emit("on-selected-genre", this.selectGenre)
         },
         selectAuthorOption() {
-            this.$emit("onSelectedAuthor", this.selectAuthor)
+            this.$emit("on-selected-author", this.selectAuthor)
         }
     }
 })

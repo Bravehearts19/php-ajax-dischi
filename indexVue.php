@@ -16,7 +16,7 @@
         <main id="app">
             <div class="container">
             <div class="row_container">
-                <component-1 @onSelectedGenre="onSelectedGenre" @onSelectedAuthor="onSelectedAuthor" :genresList="genresList" :authorsList="authorsList"></component-1>
+                <component-1 @on-selected-genre="onSelectedGenre" @on-selected-author="onSelectedAuthor" :genres-list="genresList" :authors-list="authorsList"></component-1>
                 <div class="row row-cols-1 row-cols-md-5 g-5 my-5">
                     <div class="col" v-for="(album, i) in filteredAlbumsList" :key="i">
                         <div class="card">
