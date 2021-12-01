@@ -17,7 +17,7 @@
             <div class="container">
             <div class="row_container">
                 <div class="row row-cols-1 row-cols-md-5 g-5 my-5">
-                    <div class="col" v-for="(album, i) in albumsList" :key="i">
+                    <div class="col" v-for="(album, i) in filteredAlbumsList" :key="i">
                         <div class="card">
                             <img class="card-img-top" :src="album.poster" alt="" />
                             <div class="card-body">
